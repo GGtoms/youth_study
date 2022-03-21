@@ -3,6 +3,8 @@ import json
 import requests
 import re
 import pathlib
+import os
+os.chdir(os.path.dirname(__file__))
 #json数据存储位置（如果要在linux定时运行，需要使用绝对路径。
 data_path = "./youth.json"
 #图片下载路径
